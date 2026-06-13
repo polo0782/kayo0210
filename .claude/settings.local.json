@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l \"C:\\\\Users\\\\work_\\\\Desktop\\\\post-generation\"generated_posts_*.txt)",
+      "Bash(python -c \"import pyperclip; print\\(''OK''\\)\")",
+      "Bash(python -c \"import selenium; print\\(selenium.__version__\\)\")",
+      "Bash(python -c \"from selenium import webdriver; print\\(''webdriver OK''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(tasklist /FI \"IMAGENAME eq chrome.exe\")",
+      "Bash(tasklist)",
+      "Bash(python -c \"import pyautogui; print\\(''pyautogui:'', pyautogui.__version__\\)\")",
+      "Bash(py --version)",
+      "Bash(wc -l /c/Users/work_/Desktop/post-generation/skills/*.txt /c/Users/work_/Desktop/post-generation/skills/*.md)",
+      "Bash(/c/Users/work_/AppData/Local/Programs/Python/Python312/python --version)",
+      "Bash(python convert_tsv.py generated/generated_posts_0003.txt)",
+      "Bash(python convert_tsv.py generated/generated_posts_0003.txt --clipboard)",
+      "Bash(python convert_tsv.py generated/generated_posts_0004.txt --clipboard)",
+      "Bash(python -c \"from selenium.webdriver.chrome.options import Options; print\\(''Options import: OK''\\)\")",
+      "Bash(python -c \"from webdriver_manager.chrome import ChromeDriverManager; print\\(''webdriver-manager: OK''\\)\")",
+      "Bash(where chromedriver)",
+      "Bash(python -c \"import sys; print\\(''Python executable:'', sys.executable\\); print\\(''Python Scripts dir would be:'', sys.executable.replace\\(''python.exe'', ''Scripts''\\)\\)\")",
+      "Bash(python -c \"from webdriver_manager.chrome import ChromeDriverManager; path = ChromeDriverManager\\(\\).install\\(\\); print\\(''ChromeDriver path:'', path\\)\")",
+      "Bash(python:*)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --version)",
+      "Bash(cmd //c '\"\"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\"\" --version')",
+      "Bash(pip install fpdf2)",
+      "Bash(pip show pyperclip)",
+      "Bash(pip show selenium)",
+      "Bash(ls /c/Users/work_/Desktop/post-generation/generated/generated_posts_*.txt)"
+    ]
+  }
+}
