@@ -29,7 +29,7 @@ def parse_posts(text: str) -> list[dict]:
         if len(tweets) > 1:
             posts.append({"is_thread": True, "tweets": tweets})
         else:
-            posts.append({"is_thread": False, "tweets": [block]})
+            posts.append({"is_thread": False, "tweets": tweets})
     return posts
 
 
