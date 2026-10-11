@@ -2,8 +2,8 @@
   "spreadsheet_url": "ここにスプレッドシートのURLを張り付ける",
   "start_cell": "A1",
   "schedule": {
-    "start_date": "2026-10-10",
-    "start_hour": 8,
+    "start_date": "2026-10-11",
+    "start_hour": 18,
     "start_minute": 0,
     "interval": 15,
     "random_minutes": false,
